@@ -60,8 +60,8 @@ public class SampleTest {
 		  Ctx ctx = (Ctx) threadLocal.get();
 	        WebDriver driver = ctx.driver;
 	        
-	        driver.get("ba.com");
-	        Assert.assertTrue(driver.getTitle().contains("British Airways"));
+	        driver.get("care.com");
+	        Assert.assertTrue(driver.getTitle().contains("Care.com"));
 	}
 	
 	
